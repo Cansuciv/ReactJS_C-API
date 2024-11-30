@@ -1,0 +1,192 @@
+body {
+    background-color: #fdf1e6;
+    margin: 0;
+    max-width: 100vw;
+    overflow-y: scroll;
+    /* Dikey kaydırma çubuğunu etkinleştirir */
+    overflow-x: hidden;
+    /* Yatay kaydırma çubuğunu gizler */
+    font-family: "Poppins 'sans-serif'",
+
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    justify-content: flex-start;
+}
+
+.container {
+    width: 100%;
+    background-color: #977ef9;
+    position: relative;
+    z-index: 200;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    padding: 23px;
+    height: 375px;
+}
+
+.white-frame {
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-container {
+    height: 220px;
+    left: 0px;
+    top: -2px;
+    border-radius: 8px;
+    position: relative;
+    text-align: center;
+    margin-top: 0;
+    width: 100%;
+    margin: 0 auto;
+    -webkit-box-shadow: 0px 13px 26px rgba(0, 0, 0, .04);
+    box-shadow: 0px 13px 26px rgba(0, 0, 0, .04);
+    padding: 20px;
+    background-color: #fff;
+}
+
+.inner-container {
+    padding: 20px;
+}
+
+.back-button {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    color: white;
+    background-color: #c9c0f1;
+    border-radius: 100px;
+    border: 0;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.progress {
+    height: 0px;
+    top: -20px;
+    width: 480px;
+    /* Progresi genişlet */
+    margin: 50px auto;
+    /* Ortalamak için margin ayarla */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    /* Yazıları ortalamak için flex kullan */
+}
+
+.stepper-container {
+    position: absolute;
+    top: 36px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.stepper-container .MuiStepLabel-root {
+    display: flex;
+    flex-direction: column;
+    /* Yazıları dikeyde yerleştir */
+    align-items: center;
+    /* Yazıları ortala */
+    width: 100%;
+    margin-top: 5px;
+}
+
+.stepper-container .MuiStepLabel-iconContainer {
+    width: 50px;
+}
+
+.stepper-container .MuiStepLabel-label.MuiStepLabel-alternativeLabel {
+    margin-top: 7px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+.logo {
+    position: absolute;
+    top: 20px;
+    width: 100px;
+    height: 50px;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+
+/* Existing styles */
+
+.external-button-container {
+    position: absolute;
+    text-align: center;
+    left: 435px;
+    margin-top: 20px;
+}
+
+/* For Fiyatı Gör button */
+.fiyatı-gör-button {
+    top: 498px;
+}
+
+/* Devam butonunun mevcut CSS'i */
+.devam-button {
+    top: 623px;
+}
+
+
+.satın-al {
+    top: 400px
+}
+
+.odemeyi-tamamla {
+    top: 400px
+}
+
+.external-button-container .change-color-button {
+    display: flex;
+    width: 330px;
+    height: 60px;
+    background-color: #fc4847;
+    /* Arka plan rengi kırmızı */
+    border: 1px solid #fc4847;
+    /* Sınır rengi kırmızı */
+    border-radius: 10px;
+    color: #fff;
+    /* Metin rengi beyaz */
+    margin-top: 20px;
+    /* Üst margin */
+    padding: 8px 16px;
+
+    /* İç boşlukları ayarla (isteğe bağlı) */
+    &:hover {
+        background-color: #fc4847;
+    }
+
+    /* Hover durumunda arka plan rengini değiştirmemek için */
+}
+
+.external-button-container .tekli̇f-olustur-button.change-color-button {
+    top: 408px;
+    right: -193px;
+    width: 250px;
+    /* Specific width for Teklif Oluştur button */
+    height: 50px;
+    /* Specific height for Teklif Oluştur button */
+}

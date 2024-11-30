@@ -1,0 +1,50 @@
+.offerDetail-text {
+    z-index: 1;
+    position: relative;
+    border-radius: 0;
+    margin-bottom: 0;
+    padding: 15px 10 15px 0;
+    height: 301px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #977ef9;
+    left: 0px;
+    font-family: Arial, serif, sans-serif;
+
+}
+
+
+.offerDetail-offer-text {
+    color: white;
+    padding-top: 8px;
+    display: flex;
+    letter-spacing: 0.7px;
+    font-size: 14px;
+    font-weight: smaller;
+    /* Font boyutunu artırın */
+    line-height: 125%;
+    margin-top: 5px;
+    font-family: Arial, serif, sans-serif;
+    position: relative;
+    left: 120px;
+    top: -85px;
+
+}
+
+.offerDetail-doganLogo {
+    position: absolute;
+    bottom: -980px;
+    /* Butonun altına gelecek şekilde ayarlayın */
+    left: 185px;
+    /* Butonun soluna gelecek şekilde ayarlayın */
+    padding-bottom: 50px;
+}
+
+.offerDetail-doganLogo .offerDetail-dogan-img {
+    width: 50px;
+    height: 50px;
+}

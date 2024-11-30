@@ -1,0 +1,105 @@
+.verificationCode-text {
+    z-index: 1;
+    position: relative;
+    border-radius: 0;
+    margin-bottom: 0;
+    padding: 15px 10 15px 0;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #977ef9;
+    left: 2px;
+    font-family: Arial, serif, sans-serif;
+
+}
+
+.verificationCode-text-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1000px;
+}
+
+.verificationCode-offer-text {
+    color: white;
+    padding-top: 8px;
+    width: 100%;
+    font-weight: 700;
+    display: flex;
+    letter-spacing: 0.7px;
+    font-size: 31px;
+    /* Font boyutunu artırın */
+    line-height: 45px;
+    /* Satır yüksekliğini artırın */
+
+}
+
+.verificationCode-offer-pade {
+    z-index: 10;
+    position: relative;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 55px;
+    width: 100%;
+    max-width: 540px;
+    margin: 0 auto;
+    height: 223px;
+    margin-top: 16px;
+    left: 0px;
+}
+
+.verificationCode-offer-page-form {
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 0.7px;
+    font-size: 16px;
+    color: #424242;
+    text-align: center;
+    position: relative;
+    top: -10px;
+}
+
+.verificationCode-form-head {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 10px;
+    font-weight: normal;
+    /*işe yaramadı*/
+}
+
+.error-message {
+    position: relative;
+    top: 130px;
+    color: red;
+    /* Hata mesajı rengini ayarlar */
+    font-size: 14px;
+    /* Yazı boyutunu ayarlar */
+    font-weight: bold;
+    /* Yazı kalınlığını ayarlar */
+    margin-top: 10px;
+    /* Üstten boşluk bırakır */
+    text-align: center;
+    /* Yazıyı ortalar */
+}
+
+
+.verificationCode-doganLogo {
+    position: absolute;
+    bottom: -440px;
+    /* Butonun altına gelecek şekilde ayarlayın */
+    left: 185px;
+    /* Butonun soluna gelecek şekilde ayarlayın */
+    padding-bottom: 50px;
+}
+
+.verificationCode-doganLogo .verificationCode-dogan-img {
+    width: 50px;
+    height: 50px;
+}
